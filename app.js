@@ -24,4 +24,4 @@ app.set("view engine", "ejs");
 
 app.use(express.static(path_public));
 
-app.use("/", routers);
+app.use("", routers);

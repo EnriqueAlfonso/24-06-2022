@@ -17,24 +17,29 @@ const array = [
         imagen: "uno.jpg",
     },
     {
-        id: 01,
+        id: 02,
         titulo: "Escritorio 02.",
         imagen: "dos.jpg",
     },
     {
-        id: 01,
+        id: 03,
         titulo: "Escritorio 03.",
         imagen: "tres.jpg",
     },
     {
-        id: 01,
+        id: 04,
         titulo: "Escritorio 04.",
-        imagen: "cuatro.jpg",
+        imagen: "/cuatro.jpg",
     },
     {
-        id: 01,
+        id: 05,
         titulo: "Escritorio 05.",
-        imagen: "cinco.jpg",
+        imagen: "/cinco.jpg",
+    },
+    {
+        id: undefined,
+        titulo: "間違い",
+        imagen: "oops.jpg",
     },
 ];
 
