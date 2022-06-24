@@ -8,10 +8,7 @@ const express = require("express");
 const app = express();
 
 /* Modulos Personales. */
-
-/* */
-
-/* */
+const routers = require("./routers/routers");
 
 /* 
 ===================================================================================================
@@ -26,3 +23,5 @@ app.listen(PORT, console.log("Port: 3000"));
 app.set("view engine", "ejs");
 
 app.use(express.static(path_public));
+
+app.use("/", routers);
