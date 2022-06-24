@@ -15,5 +15,6 @@ Routers.
 */
 
 router.get("", controllers.home);
+router.get("escritorio/:id", controllers.escritorio);
 
 module.exports = router;

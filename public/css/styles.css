@@ -16,3 +16,15 @@ body {
     text-decoration: none;
     color: Black;
 }
+
+.div {
+    width: 50%;
+    height: auto;
+    border: 1px solid Black;
+    margin: 50px auto;
+}
+
+.img {
+    display: block;
+    width: 100%;
+}
