@@ -17,8 +17,16 @@ const controller = {
         res.render("home");
     },
     escritorio: function (req, res) {
+        let indice = array.length;
         let parametro = req.params.id;
         let respuesta = array.find((element) => element.id == parametro);
+
+        if (parametro > indice || parametro < 0) {
+            res.render("oops");
+        } else if (parametro == undefined) {
+            res.render("oops");
+        }
+
         res.render("escritorio", { objeto: respuesta });
     },
 };

@@ -12,6 +12,21 @@ Arreglos//Objetos.
 
 const array = [
     {
+        id: undefined,
+        titulo: "間違い",
+        imagen: "oops.jpg",
+    },
+    {
+        id: null,
+        titulo: "間違い",
+        imagen: "oops.jpg",
+    },
+    {
+        id: 00,
+        titulo: "間違い",
+        imagen: "oops.jpg",
+    },
+    {
         id: 01,
         titulo: "Escritorio 01.",
         imagen: "uno.jpg",
@@ -35,11 +50,6 @@ const array = [
         id: 05,
         titulo: "Escritorio 05.",
         imagen: "/cinco.jpg",
-    },
-    {
-        id: undefined,
-        titulo: "間違い",
-        imagen: "oops.jpg",
     },
 ];
 
